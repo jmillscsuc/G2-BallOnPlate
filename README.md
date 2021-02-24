@@ -29,7 +29,7 @@ Ana Delgado
    <h4> California State University Chico</h4>
    <h4> College of Engineering, Computer Science, and Construction Management</h4> 
    <h4> MECA 482 Control Systems</h4> 
-   <h4> Ball on PlateMobile Sanitation Robot</h4> 
+   <h4> Ball on Plate</h4> 
 </center>
 
 #### Table of Contents
