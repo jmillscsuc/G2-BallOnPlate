@@ -20,7 +20,7 @@ Ana Delgado
 
 
 <p align = "center">
-  <img src = "imageexample.jpg" height = "320px" style="margin:10px 10px">
+  <img src = "photos/imageexample.jpg" height = "320px" style="margin:10px 10px">
 </p>
 
 
@@ -54,7 +54,8 @@ https://www.roboticsbusinessreview.com/robotic-company/directory/listings/ubiqui
 
 ## 3. References
 
-Examples:
+Examples
+
 [1] Lynch, K., &amp; Park, F. C. (2019). Modern robotics: Mechanics, planning, and control. Cambridge, United Kingdom: Cambridge University Press.
 
 [2] Kitagawa, Hiroki, et al. "Effectiveness of 222-nm ultraviolet light on disinfecting SARS-CoV-2 surface contamination." American journal of infection control (2020).
