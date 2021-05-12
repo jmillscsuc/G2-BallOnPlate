@@ -12,7 +12,6 @@ Project Members:
 TaylorAnne Brown - 
 Jeremy Mills -
 Jacob Grout -
-Michael Korhummel -
 Ana Delgado
       </p> 
 
