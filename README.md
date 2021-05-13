@@ -33,7 +33,7 @@ Ana Delgado
 
 #### Table of Contents
 - [1. Introduction](#1-Introduction)
-- [2. Linearized_Model](#2-Linearized Model)
+- [2. Linearized Model](#2-Linearized_Model)
 - [3. Appendix](#3-Appendix)
 - [4. References](#4-References)
 
