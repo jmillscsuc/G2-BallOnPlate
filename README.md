@@ -45,7 +45,7 @@ The objective of this project is to develop a plate that is able to ballance a b
 All of the following is in respect to the x-direction. For the ball to be in stationary equilibrium, the momentum of the ball must match that of the force produced by gravity. The force produced by gravity is:
 
 <p align = "center">
-  <img src = "photos/Eq1.png" height = "320px" style="margin:10px 10px">
+  <img src = "photos/Eq1.png">
 </p>
 
 The force from the rotation of the ball:
