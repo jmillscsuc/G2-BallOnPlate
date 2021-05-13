@@ -51,49 +51,49 @@ All of the following is in respect to the x-direction. For the ball to be in sta
 The force from the rotation of the ball:
 
 <p align = "center">
-  <img src = "photos/Eq2.png" height = "320px" style="margin:10px 10px">
+  <img src = "photos/Eq2.png">
 </p>
 
 Where bis the angle of the ball and rbis the radius of the ball. Using a sector formula, x(t) =b(t)rbwe can convert from angular to linear displacement. So the force on the ball from the momentum is:
 
 <p align = "center">
-  <img src = "photos/Eq3.png" height = "320px" style="margin:10px 10px">
+  <img src = "photos/Eq3.png">
 </p>
 
 So if:
 
 <p align = "center">
-  <img src = "photos/Eq4.png" height = "320px" style="margin:10px 10px">
+  <img src = "photos/Eq4.png">
 </p>
 
 Then solving for linear acceleration:
 
 <p align = "center">
-  <img src = "photos/Eq5.png" height = "320px" style="margin:10px 10px">
+  <img src = "photos/Eq5.png">
 </p>
 
 To relate this equation of motion that represents the position of the ball to the angle of the servo load gear we will first get the relationship between the servo angle and the beam angle. The sine of the servo shaft angle:
 
 <p align = "center">
-  <img src = "photos/Eq6.png" height = "320px" style="margin:10px 10px">
+  <img src = "photos/Eq6.png">
 </p>
 
 With this equation and the following we can obtain the relationship:
 
 <p align = "center">
-  <img src = "photos/Eq7.png" height = "320px" style="margin:10px 10px">
+  <img src = "photos/Eq7.png">
 </p>
 
 By combining Eq(5) and Eq(7):
 
 <p align = "center">
-  <img src = "photos/Eq8.png" height = "320px" style="margin:10px 10px">
+  <img src = "photos/Eq8.png">
 </p>
 
 To turn this nonlinear equation of motion approximate sinxs(t)xs(t) to get a linear equation:
 
 <p align = "center">
-  <img src = "photos/Eq9.png" height = "320px" style="margin:10px 10px">
+  <img src = "photos/Eq9.png">
 </p>
 
 
