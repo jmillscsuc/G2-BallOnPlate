@@ -121,7 +121,6 @@ Using this governing equation, we can transform this into an equations in MATLAB
 </p>
 ## 3. Code
 
-
 ## 4. Appendix
 
 Examples
