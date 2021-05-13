@@ -33,14 +33,15 @@ Ana Delgado
 
 #### Table of Contents
 - [1. Introduction](#1-Introduction)
-- [2. Linearized Model](#2-Linearized_Model)
-- [3. Appendix](#3-Appendix)
-- [4. References](#4-References)
+- [2. Equations](#2-Equations)
+- [3. Code](#3-Code)
+- [4. Appendix](#4-Appendix)
+- [5. References](#5-References)
 
 ## 1. Introduction 
 The objective of this project is to develop a plate that is able to ballance a ball. This system will need to be able to correct for any movement the ball causes. 
 
-## 2. LinearizedModel
+## 2. Equations
 
 All of the following is in respect to the x-direction. For the ball to be in stationary equilibrium, the momentum of the ball must match that of the force produced by gravity. The force produced by gravity is:
 
@@ -118,8 +119,10 @@ Using this governing equation, we can transform this into an equations in MATLAB
 <p align = "center">
   <img src = "photos/BlockDiagram.png">
 </p>
+## 3. Code
 
-## 3. Appendix
+
+## 4. Appendix
 
 Examples
 
@@ -130,7 +133,7 @@ A2: Magni Mobile Robot Information:
 https://www.roboticsbusinessreview.com/robotic-company/directory/listings/ubiquity-robotics/
 
 
-## 4. References
+## 5. References
 
 Examples
 
