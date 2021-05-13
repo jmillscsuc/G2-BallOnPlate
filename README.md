@@ -115,6 +115,10 @@ Using this governing equation, we can transform this into an equations in MATLAB
   <img src = "photos/scratch5.png">
 </p>
 
+<p align = "center">
+  <img src = "photos/BlockDiagram.png">
+</p>
+
 ## 3. Appendix
 
 Examples
