@@ -44,39 +44,57 @@ The objective of this project is to develop a plate that is able to ballance a b
 
 All of the following is in respect to the x-direction. For the ball to be in stationary equilibrium, the momentum of the ball must match that of the force produced by gravity. The force produced by gravity is:
 
-Fgx,t=mbg sinxp(t)	(1)
+<p align = "center">
+  <img src = "photos/Eq1.jpg" height = "320px" style="margin:10px 10px">
+</p>
 
 The force from the rotation of the ball:
 
-Fxm,r=Jb b''(t)rb (2)
+<p align = "center">
+  <img src = "photos/Eq2.jpg" height = "320px" style="margin:10px 10px">
+</p>
 
 Where bis the angle of the ball and rbis the radius of the ball. Using a sector formula, x(t) =b(t)rbwe can convert from angular to linear displacement. So the force on the ball from the momentum is:
 
-Fxm,r=Jb x''(t)rb2 (3)
+<p align = "center">
+  <img src = "photos/Eq3.jpg" height = "320px" style="margin:10px 10px">
+</p>
 
 So if:
 
-F=Fgx,t-Fxm,r= mbx''(t) (4)
+<p align = "center">
+  <img src = "photos/Eq4.jpg" height = "320px" style="margin:10px 10px">
+</p>
 
 Then solving for linear acceleration:
 
-x''(t)=mbg sinxp(t)rb2mbrb2+Jb  (5)
+<p align = "center">
+  <img src = "photos/Eq5.jpg" height = "320px" style="margin:10px 10px">
+</p>
 
 To relate this equation of motion that represents the position of the ball to the angle of the servo load gear we will first get the relationship between the servo angle and the beam angle. The sine of the servo shaft angle:
 
-sinxs(t)=hLa (6)
+<p align = "center">
+  <img src = "photos/Eq6.jpg" height = "320px" style="margin:10px 10px">
+</p>
 
 With this equation and the following we can obtain the relationship:
 
-sinxp(t)=2hLp=2La sinxs(t)Lp (7)
+<p align = "center">
+  <img src = "photos/Eq7.jpg" height = "320px" style="margin:10px 10px">
+</p>
 
 By combining Eq(5) and Eq(7):
 
-x''(t)=2mbg sinxs(t) La rb2Lp(mbrb2+Jb ) (8)
+<p align = "center">
+  <img src = "photos/Eq8.jpg" height = "320px" style="margin:10px 10px">
+</p>
 
 To turn this nonlinear equation of motion approximate sinxs(t)xs(t) to get a linear equation:
 
-x''(t)=2mbg La rb2Lp(mbrb2+Jb ) xs(t) (9)
+<p align = "center">
+  <img src = "photos/Eq9.jpg" height = "320px" style="margin:10px 10px">
+</p>
 
 
 ## 3. Appendix
