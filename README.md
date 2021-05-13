@@ -97,6 +97,24 @@ To turn this nonlinear equation of motion approximate sinxs(t)xs(t) to get a lin
 </p>
 
 
+Using this governing equation, we can transform this into an equations in MATLAB or Simulink
+
+<p align = "center">
+  <img src = "photos/scratch1.png">
+</p>
+<p align = "center">
+  <img src = "photos/scratch2.png">
+</p>
+<p align = "center">
+  <img src = "photos/scratch3.png">
+</p>
+<p align = "center">
+  <img src = "photos/scratch4.png">
+</p>
+<p align = "center">
+  <img src = "photos/scratch5.png">
+</p>
+
 ## 3. Appendix
 
 Examples
