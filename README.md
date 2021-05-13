@@ -119,7 +119,8 @@ Using this governing equation, we can transform this into an equations in MATLAB
 <p align = "center">
   <img src = "photos/BlockDiagram.png">
 </p>
-## 3. Code
+## 3. Code 
+
 
 ## 4. Appendix
 
