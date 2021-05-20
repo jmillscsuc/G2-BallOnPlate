@@ -19,7 +19,7 @@ Ana Delgado
 
 
 <p align = "center">
-  <img src = "photos/imageexample.jpg" height = "320px" style="margin:10px 10px">
+  <img src = "photos/CopelliaScreenCap.png" >
 </p>
 
 
