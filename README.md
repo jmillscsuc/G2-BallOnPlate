@@ -1,4 +1,4 @@
-# MECHA482-Ball on Plate
+# MECA482-Ball on Plate
 # Group 2
 Ball on Plate project for MECA 482 at CSU Chico.
 
