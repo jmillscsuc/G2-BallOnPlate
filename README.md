@@ -144,7 +144,7 @@ Using this governing equation, we can transform this into an equations in MATLAB
 </p>
 
 ## 4. Simulink
-<p> In order to determine if our new pole and gain values actually help us to achieve our desired response of 6% overshoot with a 3 second settling time, a Simulink model needed to be developed. The first model needed to be a model of the system in which we could apply an angle &theta; to the system and get a ball position, x , as an output. This model can be seen below. 
+<p> In order to determine if our new pole and gain values actually help us to achieve our desired response of 6% overshoot with a 3 second settling time, a Simulink model needed to be developed. The first model needed to be a model of the system in which we could apply an angle, &theta;, to the system and get a ball position, x , as an output. This model can be seen below. 
       </p>
       </p>
 <p align = "center">
@@ -152,6 +152,20 @@ Using this governing equation, we can transform this into an equations in MATLAB
 </p>
 <p align = "center">
   Figure 5. Complete model of system with nonlinear Lagrangian equation of motion
+</p>
+<p> With a model developed and our new: Gain, Zero and Pole can be implemented into a closed loop response based off our system. This closed loop response is also what will be outputing our &theta; value to the coppelia model as well as recieving our measure x position of the ball. In order to test if our system will have a proper response the closed loop system is attached to our system as seen in Figure 6. The response to a step input can be seen in figure 7. and shows that weve corrected our systems unstable response.
+</p>
+<p align = "center">
+  <img src = "photos/Closed_Loop_Test.PNG">
+</p>
+<p align = "center">
+  Figure 6. Closed loop response
+</p>
+<p align = "center">
+  <img src = "photos/Closed_loop_Response.PNG">
+</p>
+<p align = "center">
+  Figure 7. Controlled response of our system
 </p>
 ## 5. Appendix
 
