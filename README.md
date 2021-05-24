@@ -153,6 +153,29 @@ Using this governing equation, we can transform this into an equations in MATLAB
   Figure 3. Output of the Rlocfind() giving a gain, K, equal to 22.34
 </p>
 
+<p> The workflow of the matlab code Ball_and_Plate.m is as follows:
+      </p>
+      <p>
+      1) initialize CoppeliaSim simulation.
+            a) connect CoppeliaSim.
+            b) get handles of the control objects in the simulation; x-axis servo, y-axis servo, and vision sensor.
+      </p>
+      <p>
+      2) query CoppeliaSim for the relevant parameters for the control objects.
+            a) vision sensor output for the position of the ball.
+      </p>
+      <p>
+      3) Input Ball position into the Simulink Control system.
+      </p>
+      <p>
+      4) Call the Simulink control system's output.
+            a) Angular position of X-axis Servo.
+            b) Angular position of Y-axis Servo.
+      </p>
+      <p>
+      5) Pass Angular positions to CoppeliaSim to update the position of the servos.
+      </p>
+
 ## 4. Simulink
 <p> In order to determine if our new zero, pole, and gain values actually help us to achieve our desired response of 6% overshoot with a 3 second settling time, a Simulink model needed to be developed. The first model needed to be a model of the system in which we could apply an angle, &theta;, to the system and get a ball position, x , as an output. This model can be seen below. 
       </p>
@@ -179,7 +202,8 @@ Using this governing equation, we can transform this into an equations in MATLAB
 </p>
 
 ## 5. Conclusion
-
+<p> Our CoppeliaSim model functions correctly using Coppellia manual controls. Ball_and_Plate.m successfully connects to CoppelliaSim and Simulink; however, our group had issues with reading paramaters from the Simulink control system. We suspect that there is a datatype error which prevents successful exportation of the calculated servo angle from the Simulink control system. Several output methods were attempted with no success. Despite our efforts to solve this problem our simulation does not function so we are unable to "empirically" validate our control systems ability to maintain the position of the ball on the plate. 
+      </p>
 
 ## 6. Appendix
 
