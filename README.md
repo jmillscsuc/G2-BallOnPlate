@@ -153,7 +153,7 @@ Using this governing equation, we can transform this into an equations in MATLAB
 <p align = "center">
   Figure 5. Complete model of system with nonlinear Lagrangian equation of motion
 </p>
-<p> With a model developed and our new: Gain, Zero and Pole can be implemented into a closed loop response based off our system. This closed loop response is also what will be outputing our &theta; value to the coppelia model as well as recieving our measure x position of the ball. In order to test if our system will have a proper response the closed loop system is attached to our system as seen in Figure 6. The response to a step input can be seen in figure 7. and shows that weve corrected our systems unstable response.
+<p> With a model developed and our new: Gain, Zero and Pole can be implemented into a closed loop response based off our system. This closed loop response is also what will be outputing our &theta; value to the coppelia model as well as recieving our measure x position of the ball. In order to test if our system will have a proper response the closed loop system is attached to our system as seen in Figure 6. The response to a step input can be seen in figure 7. and shows that we've corrected our systems unstable response.
 </p>
 <p align = "center">
   <img src = "photos/Closed_Loop_Test.PNG">
