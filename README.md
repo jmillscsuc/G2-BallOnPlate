@@ -176,6 +176,7 @@ Using this governing equation, we can transform this into an equations in MATLAB
 <p align = "center">
   Figure 7. Controlled response of our system
 </p>
+</p>
 ## 5. Appendix
 
 Examples
