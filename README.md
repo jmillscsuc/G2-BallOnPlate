@@ -134,15 +134,17 @@ Using this governing equation, we can transform this into an equations in MATLAB
   <img src = "photos/Root_Locus_Poles.PNG">
 </p>
 <p align = "center">
-  Figure 2. 
+  Figure 2. Location of the poles within the design criteria
 </p>
 <p align = "center">
   <img src = "photos/Root_locus_Gain_Poles.PNG">
 </p>
 <p align = "center">
-  Figure 3.
+  Figure 3. Output of the Rlocfind() giving a gain, K, equal to 22.34
 </p>
-## 4. Appendix
+## 4. Simulink
+
+## 5. Appendix
 
 Examples
 
@@ -153,7 +155,7 @@ A2: Magni Mobile Robot Information:
 https://www.roboticsbusinessreview.com/robotic-company/directory/listings/ubiquity-robotics/
 
 
-## 5. References
+## 6. References
 
 Examples
 
