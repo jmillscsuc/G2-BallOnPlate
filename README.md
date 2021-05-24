@@ -123,7 +123,15 @@ Using this governing equation, we can transform this into an equations in MATLAB
 
 
 ## 3. Code 
-<p> For the design of our system a 6% overshoot and a settling time of 3 seconds. By using these criteria and the equations {Need Equations} the natural frequency &omega;<sub>n</sub> and the dampening ratio &zeta;. In order to find the poles and the gain of the system Root Locus was used. The values of the Natural frequency and dampening ratio were used to build the rootlocus graph as seen in figure 1. The area between the dotted diagnals is where there is less than 5% overshoot, and the area to left of the curved dotted region is the area of less than a 3 second settling time. Because none of the plot falls within this design criteria a lead compensator was used. I order to pull the Root locus more to the left-hand plane a zero close to the origin and a pole out at -4 were used. The results of this can be seen in figure 2. Finally by utilizing the function rlocfind() a location of the Root Locus graph within the design parameters can be chosen in order to find the gain of the system the results of this can be found in Figure 3.
+<p> For the design of our system a 6% overshoot and a settling time of 3 seconds. By using these criteria and equations 10 and 11 the natural frequency &omega;<sub>n</sub> and the dampening ratio &zeta; were found to be 1.99 and 0.667 respectively. In order to find the poles and the gain of the system Root Locus was used. The values of the Natural frequency and dampening ratio were used to build the rootlocus graph as seen in figure 1. The area between the dotted diagnals is where there is less than 5% overshoot, and the area to left of the curved dotted region is the area of less than a 3 second settling time. Because none of the plot falls within this design criteria a lead compensator was used. I order to pull the Root locus more to the left-hand plane a zero close to the origin and a pole out at -4 were used. The results of this can be seen in figure 2. Finally by utilizing the function rlocfind() a location of the Root Locus graph within the design parameters can be chosen in order to find the gain of the system the results of this can be found in Figure 3.
+</p> 
+<p align = "center">
+  <img src = "photos/Eq10.PNG">
+</p>
+</p> 
+<p align = "center">
+  <img src = "photos/Eq11.PNG">
+</p>
 </p> 
 <p align = "center">
   <img src = "photos/Root-Locus_After_design.PNG">
