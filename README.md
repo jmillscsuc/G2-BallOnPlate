@@ -36,8 +36,9 @@ Ana Delgado
 - [2. Equations](#2-Equations)
 - [3. Code](#3-Code)
 - [4. Simulink](#4-Simulink)
-- [5. Appendix](#5-Appendix)
-- [6. References](#6-References)
+- [5. Conclusion and Results](#5-Conclusion and Results)
+- [6. Appendix](#6-Appendix)
+- [7. References](#7-References)
 
 ## 1. Introduction 
 The objective of this project is to develop a plate that is able to ballance a ball. This system will need to be able to correct for any movement the ball causes. 
@@ -176,8 +177,9 @@ Using this governing equation, we can transform this into an equations in MATLAB
 <p align = "center">
   Figure 7. Controlled response of our system
 </p>
+## 5. Conclusion and Results
 
-## 5. Appendix
+## 6. Appendix
 
 Examples
 
@@ -188,7 +190,7 @@ A2: Magni Mobile Robot Information:
 https://www.roboticsbusinessreview.com/robotic-company/directory/listings/ubiquity-robotics/
 
 
-## 6. References
+## 7. References
 
 Examples
 
