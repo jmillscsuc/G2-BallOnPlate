@@ -144,7 +144,15 @@ Using this governing equation, we can transform this into an equations in MATLAB
 </p>
 
 ## 4. Simulink
-
+<p> In order to determine if our new pole and gain values actually help us to achieve our desired response of 6% overshoot with a 3 second settling time, a Simulink model needed to be developed. The first model needed to be a model of the system in which we could apply an angle &theta; to the system and get a ball position, x , as an output. This model can be seen below. 
+      </p>
+      </p>
+<p align = "center">
+  <img src = "photos/System_Model.PNG">
+</p>
+<p align = "center">
+  Figure 5. Complete model of system with nonlinear Lagrangian equation of motion
+</p>
 ## 5. Appendix
 
 Examples
