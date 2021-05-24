@@ -35,8 +35,9 @@ Ana Delgado
 - [1. Introduction](#1-Introduction)
 - [2. Equations](#2-Equations)
 - [3. Code](#3-Code)
-- [4. Appendix](#4-Appendix)
-- [5. References](#5-References)
+- [4. Simulink](#4-Simulink)
+- [5. Appendix](#5-Appendix)
+- [6. References](#6-References)
 
 ## 1. Introduction 
 The objective of this project is to develop a plate that is able to ballance a ball. This system will need to be able to correct for any movement the ball causes. 
