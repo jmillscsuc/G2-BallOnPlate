@@ -36,7 +36,7 @@ Ana Delgado
 - [2. Equations](#2-Equations)
 - [3. Code](#3-Code)
 - [4. Simulink](#4-Simulink)
-- [5. Conclusion and Results](#5-Conclusion and Results)
+- [5. Conclusion](#5-Conclusion)
 - [6. Appendix](#6-Appendix)
 - [7. References](#7-References)
 
@@ -178,7 +178,7 @@ Using this governing equation, we can transform this into an equations in MATLAB
   Figure 7. Controlled response of our system
 </p>
 
-## 5. Conclusion and Results
+## 5. Conclusion
 
 
 ## 6. Appendix
